@@ -1,16 +1,16 @@
-/* src/app/globals.css */
-
+/* Tailwind base layers ── leave these at the very top */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* light / dark brand palette */
+/* Brand palette and fonts */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-sans: Arial, Helvetica, sans-serif;
+  --font-sans: Arial, Helvetica, sans-serif; /* swap for your brand font if needed */
 }
 
+/* Dark-mode overrides */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -18,6 +18,7 @@
   }
 }
 
+/* Global element styles */
 body {
   background: var(--background);
   color: var(--foreground);
