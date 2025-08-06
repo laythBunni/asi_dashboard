@@ -1,1 +1,7 @@
-js\nexport default {\n plugins: {\n tailwindcss: {},\n autoprefixer: {},\n },\n};\n
+// postcss.config.js – minimal PostCSS pipeline for Tailwind
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
