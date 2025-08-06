@@ -1,5 +1,7 @@
-// postcss.config.js – minimal PostCSS pipeline for Tailwind
-export default {
+// postcss.config.js  ← place this file at your project root
+
+/** @type {import('postcss').Config} */
+module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
