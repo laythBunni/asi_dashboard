@@ -1,1 +1,21 @@
-(optional – Vercel auto-adds if absent, but you can paste from your local project)
+{
+  "name": "asi-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.30",
+    "autoprefixer": "^10.4.16"
+  }
+}
+
