@@ -1,5 +1,4 @@
-// postcss.config.js  ← keep it at the project root
-
+// postcss.config.js   – CommonJS export
 /** @type {import('postcss').Config} */
 module.exports = {
   plugins: {
