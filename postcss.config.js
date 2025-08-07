@@ -1,4 +1,4 @@
-// postcss.config.js  ← place this file at your project root
+// postcss.config.js  ← keep it at the project root
 
 /** @type {import('postcss').Config} */
 module.exports = {
